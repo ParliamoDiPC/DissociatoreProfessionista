@@ -1,7 +1,3 @@
-// va
-
-process.exit()
-
 const Discord = require("discord.js")
 const bot = new Discord.Client();
 
@@ -55,20 +51,6 @@ bot.ws.on('INTERACTION_CREATE', async interaction => {
 		}});
 	}
 })
-
-/*bot.ws.on("INTERACTION_CREATE", async interaction => {
-	const command = interaction.data.name.toLowerCase();
-	if (command === "dissociometro") {
-		bot.api.interactions(interaction.id, interaction.token).callback.post({
-			data: {
-				type: 4,
-				data: {
-					content: ":white_check_mark: Oggi ti sei dissociato **" + Math.floor(Math.random() * 1000001) + "** volte! :flushed:"
-				}
-			}
-		})
-	}
-})*/
 
 bot.login()
 
