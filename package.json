@@ -1,0 +1,29 @@
+{
+    "name": "dissociatoreprofessionista",
+    "version": "2.0.3",
+    "description": "Il bot perfetto per chi si deve dissociare!",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:ParliamoDiPC/DissociatoreProfessionista.git"
+    },
+    "keywords": [
+      "bot",
+      "discord-bot",
+      "midissocio",
+      "mi-dissocio"
+    ],
+    "author": "ParliamoDiPC",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ParliamoDiPC/DissociatoreProfessionista/issues"
+    },
+    "homepage": "https://github.com/ParliamoDiPC/DissociatoreProfessionista#readme",
+    "dependencies": {
+      "discord.js": "^12.5.3",
+      "telegraf": "^4.3.0"
+    }
+}
